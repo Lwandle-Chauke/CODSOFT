@@ -1,0 +1,323 @@
+/* styles.css */
+body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-color: black;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background: black;
+    padding: 1.5rem 0; /* Increase padding for a taller header */
+    border-bottom: 1px solid pink;
+}
+
+header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 80px; /* Increase the gap between items */
+}
+
+nav ul li {
+    font-size: 1.2rem; /* Increase the font size */
+    font-weight: bold;
+    text-shadow: 2px 0px 2px pink;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem; /* Add padding for larger clickable area */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for both transform and color effects */
+}
+
+nav ul li a:hover {
+    transform: scale(1.2); /* Increase size by 20% on hover */
+    color: #ff69b4; /* Optional: change color on hover */
+}
+
+
+.section {
+    padding: 2rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem; /* Increase the size of the welcome text */
+    font-weight: bold;
+    color: pink;
+    text-align: center;
+    margin-bottom: 1rem;
+    animation: fadeIn 2s;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem; /* Increase size for section headings */
+    font-weight: bold;
+    color: pink;
+    text-align: center; /* Center-align the headings */
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem; /* Increase size for section headings */
+    font-weight: bold;
+    color: whitesmoke;
+    margin-bottom: 1rem;
+}
+
+p {
+    text-align: justify;
+    animation: fadeIn 2s;
+    position: centre;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    display: inline-block;
+    background: palevioletred;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1rem; /* Space above the button */
+}
+
+button:hover {
+    background: white;
+    color: black;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.project-box {
+    background-color: #222; /* Background color for project boxes */
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.project-box a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.project-box:hover {
+    background-color: #333; /* Highlight color for project boxes on hover */
+    transform: scale(1.05); /* Slightly increase the size on hover */
+}
+
+.project-box a:hover {
+    text-decoration: underline;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.skill {
+    position: relative;
+    background-color: #222; /* Background color for the skill boxes */
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+
+.skill-name {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #444; /* Background color for the description boxes */
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.skill:hover .description {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.skill:hover {
+    background-color: #333; /* Highlight color for skill boxes on hover */
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 1rem;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.animated-image {
+    width: 350px; /* Set width */
+    height: 350px; /* Set height to match width */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the area */
+    animation: slideIn 3s;
+    margin-left: 2rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Intro section styles */
+.intro {
+    display: flex;
+    align-items: flex-start; /* Align items to the start */
+    justify-content: space-between;
+    padding: 2rem 0;
+    flex-direction: row; /* Arrange items in a row */
+    text-align: left; /* Left-align the text */
+}
+
+.intro-text {
+    flex: 1;
+    margin-right: 2rem; /* Add space between text and image */
+    margin-left: 3rem;
+}
+
+.intro-image {
+    flex: 1;
+}
+
+/* Styles for the text and button */
+.intro-text {
+    font-size: 1.2rem; /* Adjust font size for readability */
+}
+
+button {
+    display: inline-block;
+    background: palevioletred;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    height: 3rem;
+    width: 9rem;
+    cursor: pointer;
+    margin-top: 1rem; /* Space above the button */
+    font-size: 1rem; /* Adjust font size for readability */
+}
+
+button:hover {
+    background: white;
+    color: black;
+}
