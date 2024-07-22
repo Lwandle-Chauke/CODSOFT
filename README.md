@@ -12,25 +12,24 @@ Welcome to the CODSOFT Internship Projects repository. This repository contains 
 - [Contact](#contact)
 
 ## Projects
-1. [Dynamic E-commerce Website](#dynamic-e-commerce-website)
-2. [Web-based Personal Finance Tracker](#web-based-personal-finance-tracker)
-3. [Responsive Portfolio Website](#responsive-portfolio-website)
-4. [Additional Projects](#additional-projects)
-
-### Dynamic E-commerce Website
-- **Description**: Developed using Java, HTML, CSS, and MySQL for backend database management.
-- **Documentation**: [View Project Document](path/to/e-commerce.pdf)
-- **Source Code**: [E-commerce Website Directory](./e-commerce-website)
-
-### Web-based Personal Finance Tracker
-- **Description**: Created using C# and MySQL for data storage.
-- **Documentation**: [View Project Document](path/to/finance-tracker.pdf)
-- **Source Code**: [Personal Finance Tracker Directory](./personal-finance-tracker)
+1. [Responsive Portfolio Website](#responsive-portfolio-website)
+2. [Calculator](#calculator)
+3. [Landing Page](#landing-page)
 
 ### Responsive Portfolio Website
 - **Description**: Designed and implemented using HTML, CSS, and JavaScript.
 - **Documentation**: [View Project Document](path/to/portfolio.pdf)
-- **Source Code**: [Portfolio Website Directory](./portfolio-website)
+- **Source Code**: [Portfolio Website Directory](./responsive-portfolio-website)
+
+### Calculator
+- **Description**: Designed and implemented using HTML, CSS, and JavaScript.
+- **Documentation**: [View Project Document](path/to/calculator.pdf)
+- **Source Code**: [Calculator Directory](./calculator)
+
+### Landing Page
+- **Description**: Designed and implemented using HTML, CSS, and JavaScript.
+- **Documentation**: [View Project Document](path/to/landing-page.pdf)
+- **Source Code**: [Landing Page Directory](./landing-page)
 
 ### Additional Projects
 Additional projects completed during the internship will be listed here with similar details.
