@@ -5,8 +5,6 @@ Welcome to the CODSOFT Internship Projects repository. This repository contains 
 
 ## Table of Contents
 - [Projects](#projects)
-- [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
