@@ -24,3 +24,8 @@ Welcome to the CODSOFT Internship Projects repository. This repository contains 
 - **Documentation**: [View Project Document](path/to/calculator.pdf)
 - **Source Code**: [Calculator Directory](./calculator)
 
+## License
+This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
+
+## Contact
+For any questions or inquiries, please contact Lwandle Chauke at [lwandlec0@gmail.com](mailto:lwandlec0@gmail.com).
