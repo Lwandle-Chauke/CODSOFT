@@ -9,13 +9,13 @@ Welcome to the CODSOFT Internship Projects repository. This repository contains 
 - [Contact](#contact)
 
 ## Projects
-1. [Responsive Portfolio Website](#responsive-portfolio-website)
+1. [Responsive Portfolio Website](#https://github.com/Lwandle-Chauke/CODSOFT/tree/main/Calculator)
 2. [Calculator](#calculator)
 
 ### Responsive Portfolio Website
 - **Description**: Designed and implemented using HTML, CSS, and JavaScript.
 - **Documentation**: [View Project Document](path/to/portfolio.pdf)
-- **Source Code**: [Portfolio Website Directory](./responsive-portfolio-website)
+- **Source Code**: [Portfolio Website Directory](.https://github.com/Lwandle-Chauke/CODSOFT/tree/main/Calculator)
 
 ### Calculator
 - **Description**: Designed and implemented using HTML, CSS, and JavaScript.
